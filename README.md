@@ -1,0 +1,2 @@
+Yeoman puppet module
+==============
