@@ -1,7 +1,7 @@
 class yeoman {
     Exec { path => [ "/bin/", "/sbin/" , "/usr/bin/", "/usr/sbin/" ] }
 
-    $yeomanPackages = ["git", "libjpeg-turbo-progs", "optipng", "phantomjs", "python-software-properties" ]
+    $yeomanPackages = ["libjpeg-turbo-progs", "optipng", "phantomjs", "python-software-properties" ]
 
     package { $yeomanPackages:
       ensure => "installed",
@@ -31,6 +31,8 @@ class yeoman {
       require => Class["nodejs"],
     }
 }
+
+include git
 include rubygems
 include nodejs
 include yeoman
