@@ -30,6 +30,16 @@ class yeoman {
       provider => 'npm',
       require => Class["nodejs"],
     }
+    package { 'generator-node':
+      ensure => present,
+      provider => 'npm',
+      require => Class["nodejs"],
+    }
+    package { 'generator-angular':
+      ensure => present,
+      provider => 'npm',
+      require => Class["nodejs"],
+    }
 }
 
 include git
