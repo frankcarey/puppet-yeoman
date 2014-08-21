@@ -1,5 +1,7 @@
-Yeoman puppet module
-==============
+puppet-yeoman
+=============
+
+This is the yeoeman puppet module, which makes it easier to install yeoman, it's dependencies, and any existing yeoman projects.
 
 For a working example checkout https://github.com/frankcarey/angular-vm
 
@@ -8,7 +10,7 @@ To Just install yeoman and it's dependencies:
 
     include yeoman
 
-To enable specific yeoman generators (and install yeoman)
+To install specific yeoman generators (and install yeoman)
 ------------------------------------
 
     yeoman::generator { 'generator-angular': }
@@ -35,3 +37,9 @@ This example will:
 * Run grunt serve
 
 This module could certainly be improved. Issues and pull requests welcome.
+Please log tickets and issues on github: [https://github.com/frankcarey/puppet-yeoman]
+
+License
+-------
+
+MIT

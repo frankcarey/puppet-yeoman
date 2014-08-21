@@ -1,3 +1,19 @@
+# == Class: yeoman
+#
+# This class installs yeoman and it's common dependencies.
+#
+# === Documentation
+#
+# See the README
+#
+# === Authors
+#
+# Frank Carey
+#
+# === Copyright
+#
+# Copyright 2014 Frank Carey
+#
 class yeoman {
   Exec { path => [ "/bin/", "/sbin/" , "/usr/bin/", "/usr/sbin/" ] }
 
