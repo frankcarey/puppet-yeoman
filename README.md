@@ -1,6 +1,8 @@
 Yeoman puppet module
 ==============
 
+For a working example checkout https://github.com/frankcarey/angular-vm
+
 To Just install yeoman and it's dependencies:
 ---------------------------------------------
 
